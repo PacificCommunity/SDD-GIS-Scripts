@@ -11,9 +11,9 @@ In a nutshell the geographic validation works as a combination of a STATA do fil
 This group of scripts have been designed to process and correct SU codes and Dwelling locations, once the field work has finished. This ensures that the data collected is correctly aggregated at SU level and upwards (district, province...).
 
 The data cleaning and processing includes the following phases:
-1. Data extraction and processing from SS server using STATA do file to extract the information required.
-2. Automatic processing using R script that cleans SU codes, GPS coordinates when the automatic processing is possible (this is explained in the script and is related to the tablet built in GPS accuracy ~ 30m)
-3. Manual processing using QGIS for these interviews where is necessary human interpretation of the data to assess and correct the errors.
-4. Last processing steps using R script to keep and rename fields (interview_key, SU names and codes, Lat, Long. This table will be merged with the final dataset.
+**1. Data extraction and processing** from SS server using STATA do file to extract the information required.
+**2. Automatic processing** using R script that cleans SU codes, GPS coordinates when the automatic processing is possible (this is explained in the script and is related to the tablet built in GPS accuracy ~ 30m)
+**3. Manual processing** using QGIS for these interviews where is necessary human interpretation of the data to assess and correct the errors.
+**4. Last processing steps** using R script to keep and rename fields (interview_key, SU names and codes, Lat, Long. This table will be merged with the final dataset.
 
 
