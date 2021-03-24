@@ -1,6 +1,6 @@
 ###AUTOMATIC GPS CHECKINGS AND MONITORING - STAT DATA COLLECTION IN SURVEY SOLUTIONS####
 ##Luis de la Rua - SPC - SDD - October 2020
-###VANUATU 2020 POPULATION AND HOUSING CENSUS###
+
 library(maptools)
 library(raster)
 library(sf)
